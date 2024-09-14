@@ -139,27 +139,3 @@ Data Persistence: The TaskService uses TaskRepository (based on Spring Data JPA)
 
 Application Properties: You configure the database connection in application.properties, ensuring seamless integration with MySQL.
 
-Example Test API Calls:
-Get All Tasks:
-bash
-Copy code
-GET http://localhost:8080/api/tasks
-Create a Task:
-bash
-Copy code
-POST http://localhost:8080/api/tasks
-Body:
-{
-  "description": "Complete Spring Boot Project",
-  "completed": false
-}
-
-
-
-
-
-
-
-
-
-

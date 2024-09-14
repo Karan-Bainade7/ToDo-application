@@ -153,20 +153,7 @@ Body:
   "description": "Complete Spring Boot Project",
   "completed": false
 }
-Delete a Task:
-bash
-Copy code
-DELETE http://localhost:8080/api/tasks/1
-Final Steps
-Run the application:
 
-arduino
-Copy code
-mvn spring-boot:run
-Upload to GitHub:
-
-Initialize a Git repo in your project folder and push it to GitHub as explained earlier.
-This is a basic setup to build and deploy your ToDo application on GitHub.
 
 
 
